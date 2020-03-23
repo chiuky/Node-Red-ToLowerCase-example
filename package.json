@@ -1,0 +1,21 @@
+{
+  "name": "node-red-contrib-example-lower-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lower-case.js",
+  "scripts": {
+    "test": "test/lower-case_spec.js"
+  },
+  "author": "Donato Chiuchiolo",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^3.16.0",
+    "he": "^1.2.0",
+    "request": "^2.88.2"
+  },
+  "node-red": {
+    "nodes": {
+      "lower-case": "lower-case.js"
+    }
+  }
+}
